@@ -19,8 +19,7 @@ the system.
 - `y` (double) The y position of the vehicle.
 - `psi` (double) The vehicle orientation.
 - `v` (double) The vehicle velocity.
-- `cte` (double) The cross track error, calculated as the difference of the fitting
-the current x position and the y position we get from the simulator. `cte = polyeval(coeffs,x) - y`.
+- `cte` (double) The cross track error, calculated as the difference of the ploynomial fitting and the current x and y positions we get from the simulator. `cte = polyeval(coeffs,x) - y`.
 - `epsi` (double) The orientation error, calculated as the derivative f'(x) where f(x) is equal to 
 `coeffs[0] + coeffs[1] * x` which results in `coeffs[1]`. The orientation error final value is 
 calculated as `-atan(coeff[1])`, the negative sign is added because of the way the simulator
