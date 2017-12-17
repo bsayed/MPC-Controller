@@ -9,7 +9,7 @@ The following is a GIF generated from driving the car around the track, displayi
 
 [gifImage]: ./MPC.mp4.gif
 
-![alt text] [gifImage]
+![alt text][gifImage]
 
 
 ## Dependencies
